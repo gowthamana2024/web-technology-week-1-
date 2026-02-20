@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Voting System - Voter Records</title>
+
+    <style>
+        body {
+            background-color: #f2f6ff;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        h2 {
+            color: darkred;
+        }
+
+        table {
+            background-color: white;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>ONLINE VOTING SYSTEM</h1>
+
+    <h2>General Election Details</h2>
+    <ul>
+        <li>Election Name: State Assembly Election 2025</li>
+        <li>Voting Date: 20 July 2025</li>
+        <li>Total Candidates: 5</li>
+        <li>Total Registered Voters: 2000</li>
+    </ul>
+
+    <h2>Voting Process</h2>
+    <ol>
+        <li>Login using Email and Password</li>
+        <li>Verify Voter ID</li>
+        <li>Select Your Candidate</li>
+        <li>Confirm and Submit Vote</li>
+    </ol>
+
+    <h2>Voter Record Information</h2>
+
+    <table border="1" cellpadding="10" cellspacing="5">
+        <tr>
+            <th>Voter ID</th>
+            <th>Name</th>
+            <th>Constituency</th>
+            <th>Voting Status</th>
+        </tr>
+
+        <tr>
+            <td>V101</td>
+            <td>Arun Kumar</td>
+            <td>Chennai</td>
+            <td>Voted</td>
+        </tr>
+
+        <tr>
+            <td>V102</td>
+            <td>Priya Sharma</td>
+            <td>Madurai</td>
+            <td>Not Voted</td>
+        </tr>
+
+        <tr>
+            <td>V103</td>
+            <td>Rahul Das</td>
+            <td>Coimbatore</td>
+            <td>Voted</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

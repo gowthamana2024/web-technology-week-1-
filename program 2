@@ -1,0 +1,161 @@
+========================
+FILE: index.html
+========================
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Voting System</title>
+</head>
+
+<frameset rows="20%,80%">
+    
+    <frame src="header.html" name="topframe">
+
+    <frameset cols="25%,75%">
+        <frame src="nav.html" name="navframe">
+        <frame src="login.html" name="contentframe">
+    </frameset>
+
+</frameset>
+
+</html>
+
+
+========================
+FILE: header.html
+========================
+<!DOCTYPE html>
+<html>
+<body bgcolor="lightblue">
+    <h1 align="center">ONLINE VOTING SYSTEM</h1>
+</body>
+</html>
+
+
+========================
+FILE: nav.html
+========================
+<!DOCTYPE html>
+<html>
+<body bgcolor="lightgray">
+
+    <h3>Navigation</h3>
+
+    <a href="login.html" target="contentframe">Login</a><br><br>
+    <a href="catalogue.html" target="contentframe">Candidate List</a><br><br>
+    <a href="register.html" target="contentframe">Voter Registration</a>
+
+</body>
+</html>
+
+
+========================
+FILE: login.html
+========================
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+
+    <h2>Voter Login</h2>
+
+    <form>
+        Username:<br>
+        <input type="text"><br><br>
+
+        Password:<br>
+        <input type="password"><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+
+</body>
+</html>
+
+
+========================
+FILE: catalogue.html
+========================
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Candidate List</title>
+</head>
+<body>
+
+    <h2>Candidate List</h2>
+
+    <table border="1" cellpadding="10" cellspacing="5">
+        <tr>
+            <th>Candidate ID</th>
+            <th>Name</th>
+            <th>Party</th>
+            <th>Constituency</th>
+        </tr>
+
+        <tr>
+            <td>C101</td>
+            <td>Ramesh Kumar</td>
+            <td>ABC Party</td>
+            <td>Chennai</td>
+        </tr>
+
+        <tr>
+            <td>C102</td>
+            <td>Priya Sharma</td>
+            <td>XYZ Party</td>
+            <td>Madurai</td>
+        </tr>
+
+        <tr>
+            <td>C103</td>
+            <td>Arun Das</td>
+            <td>National Party</td>
+            <td>Coimbatore</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
+
+
+========================
+FILE: register.html
+========================
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voter Registration</title>
+</head>
+<body>
+
+    <h2>Voter Registration Form</h2>
+
+    <form>
+
+        Name:<br>
+        <input type="text" required><br><br>
+
+        Email:<br>
+        <input type="email" required><br><br>
+
+        Password:<br>
+        <input type="password" required><br><br>
+
+        Gender:<br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female<br><br>
+
+        Address:<br>
+        <textarea rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>

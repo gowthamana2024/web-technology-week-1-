@@ -1,0 +1,112 @@
+========================
+FILE: index.html
+========================
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Voting System - Programme 5</title>
+</head>
+
+<frameset rows="20%,80%">
+    
+    <frame src="header.html" name="topframe">
+
+    <frameset cols="30%,70%">
+        <frame src="imagemap.html" name="leftframe">
+        <frame src="home.html" name="rightframe">
+    </frameset>
+
+</frameset>
+
+</html>
+
+
+========================
+FILE: header.html
+========================
+<!DOCTYPE html>
+<html>
+<body bgcolor="lightblue">
+    <h1 align="center">ONLINE VOTING SYSTEM</h1>
+</body>
+</html>
+
+
+========================
+FILE: imagemap.html
+========================
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h3>Click the sections below</h3>
+
+    <img src="votingmap.jpg" usemap="#votemap" width="300" height="300">
+
+    <map name="votemap">
+
+        <area shape="rect" coords="0,0,150,150"
+              href="home.html" target="rightframe">
+
+        <area shape="rect" coords="150,0,300,150"
+              href="candidates.html" target="rightframe">
+
+        <area shape="rect" coords="0,150,300,300"
+              href="contact.html" target="rightframe">
+
+    </map>
+
+</body>
+</html>
+
+
+========================
+FILE: home.html
+========================
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>Welcome to Online Voting System</h2>
+
+    <p>
+        This system allows voters to cast votes online securely.
+    </p>
+
+</body>
+</html>
+
+
+========================
+FILE: candidates.html
+========================
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>Candidate Details</h2>
+
+    <ul>
+        <li>Ramesh Kumar - ABC Party</li>
+        <li>Priya Sharma - XYZ Party</li>
+        <li>Arun Das - National Party</li>
+    </ul>
+
+</body>
+</html>
+
+
+========================
+FILE: contact.html
+========================
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>Contact Information</h2>
+
+    <p>Email: support@onlinevoting.com</p>
+    <p>Phone: +91 9876543210</p>
+
+</body>
+</html>

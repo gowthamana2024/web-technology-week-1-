@@ -1,0 +1,88 @@
+========================
+FILE: index.html
+========================
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Voting System - Programme 3</title>
+</head>
+<body>
+
+    <h1 align="center">ONLINE VOTING SYSTEM</h1>
+
+    <hr>
+
+    <h3>Navigation</h3>
+
+    <a href="home.html" target="contentframe">Home</a> |
+    <a href="candidates.html" target="contentframe">Candidates</a> |
+    <a href="vote.html" target="contentframe">Vote</a>
+
+    <hr>
+
+    <iframe name="contentframe" width="100%" height="400px"></iframe>
+
+</body>
+</html>
+
+
+========================
+FILE: home.html
+========================
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>Welcome to Online Voting System</h2>
+
+    <p>
+        This system allows registered voters to cast their vote online 
+        in a secure and transparent manner.
+    </p>
+
+    <img src="voting.jpg" width="300" height="200">
+
+</body>
+</html>
+
+
+========================
+FILE: candidates.html
+========================
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>Candidate Details</h2>
+
+    <ul>
+        <li>Ramesh Kumar - ABC Party</li>
+        <li>Priya Sharma - XYZ Party</li>
+        <li>Arun Das - National Party</li>
+    </ul>
+
+    <img src="candidates.jpg" width="300" height="200">
+
+</body>
+</html>
+
+
+========================
+FILE: vote.html
+========================
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>Cast Your Vote</h2>
+
+    <form>
+        <input type="radio" name="candidate"> Ramesh Kumar<br>
+        <input type="radio" name="candidate"> Priya Sharma<br>
+        <input type="radio" name="candidate"> Arun Das<br><br>
+
+        <input type="submit" value="Submit Vote">
+    </form>
+
+</body>
+</html>
